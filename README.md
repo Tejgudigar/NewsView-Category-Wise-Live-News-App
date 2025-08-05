@@ -48,11 +48,9 @@ This project is inspired by [CodeWithHarry’s React tutorial](https://www.youtu
 git clone https://github.com/your-username/NewsView-Category-Wise-Live-News-App.git
 cd NewsView-Category-Wise-Live-News-App
 
----
-📦 Install Dependencies
-bash
-Copy
-Edit
+### 📦 Install Dependencies
+
+```bash
 npm install
 🔑 Add Your API Key using .env
 Go to https://newsapi.org/ and sign up for a free account.
@@ -118,4 +116,6 @@ This project is for learning and educational purposes. You are free to use, modi
 🙋‍♀️ Author
 Tejaswini Venkatesh Gudigar
 Computer Science and Engineering Graduate
-🔗 GitHub
+
+
+
