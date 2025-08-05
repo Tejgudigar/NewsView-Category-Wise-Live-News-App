@@ -1,70 +1,121 @@
-# Getting Started with Create React App
+# 📰 NewsView – Category-Wise Live News App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**NewsView** is a fully functional, category-wise live news application developed using **React** and the **NewsAPI**. It allows users to browse real-time news articles across multiple categories such as Business, Technology, Sports, Health, and more. The app is designed with a clean, responsive UI and smooth navigation to provide an intuitive user experience.
 
-## Available Scripts
+This project is inspired by [CodeWithHarry’s React tutorial](https://www.youtube.com/watch?v=x9p-4QGh-OI&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&index=22), and is further enhanced with user-centric design principles, modular components, and dynamic routing.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔴 **Live News Feed**  
+  Fetches the latest news from NewsAPI in real time, ensuring fresh and up-to-date content.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 📁 **Category-Wise Browsing**  
+  Users can easily navigate between different categories (e.g., General, Sports, Business, Technology) using React Router.
 
-### `npm test`
+- 🔄 **Pagination Support**  
+  News is displayed page-wise, with navigation controls to load more articles without cluttering the interface.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🌀 **Loading Spinner**  
+  A visual indicator is displayed while data is being fetched, improving perceived performance and UX.
 
-### `npm run build`
+- 📱 **Responsive Design**  
+  Optimized for mobile, tablet, and desktop using modern layout techniques.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 💡 **Component-Based Architecture**  
+  Built using reusable and modular React components to ensure clean code and scalability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🧱 Tech Stack
 
-### `npm run eject`
+| Technology       | Usage                                      |
+|------------------|--------------------------------------------|
+| React            | Front-end library for building UI          |
+| NewsAPI          | REST API to fetch real-time news           |
+| React Router     | Enables category-based navigation          |
+| Bootstrap / CSS  | For layout and responsive design           |
+| JavaScript (ES6+)| Core logic and state management            |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Installation & Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 📁 Clone the Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/your-username/NewsView-Category-Wise-Live-News-App.git
+cd NewsView-Category-Wise-Live-News-App
 
-## Learn More
+---
+📦 Install Dependencies
+bash
+Copy
+Edit
+npm install
+🔑 Add Your API Key using .env
+Go to https://newsapi.org/ and sign up for a free account.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+After logging in, copy your API key.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In the root directory of your project, create a file named:
 
-### Code Splitting
+bash
+Copy
+Edit
+.env
+Inside .env, add the following line (replace with your actual API key):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+env
+Copy
+Edit
+REACT_APP_NEWS_API_KEY=your_api_key_here
+⚠️ Important:
 
-### Analyzing the Bundle Size
+The variable must start with REACT_APP_ for Create React App to recognize it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Restart your dev server (npm start) after creating or editing .env.
 
-### Making a Progressive Web App
+Never share your .env file or API key publicly. It's automatically ignored by Git using .gitignore.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+▶️ Start the App
+bash
+Copy
+Edit
+npm start
+Visit http://localhost:3000 in your browser.
 
-### Advanced Configuration
+🧪 How It Works
+App.js: Manages routes and layout.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+News.js: Fetches and renders news based on the selected category.
 
-### Deployment
+Navbar.js: Provides category navigation using React Router links.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Spinner.js: Displays loading animation.
 
-### `npm run build` fails to minify
+API Handling: Uses fetch API to call NewsAPI endpoints with category and page parameters.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📸 Screenshots (Optional)
+Add screenshots here to showcase the UI (use .png or .jpg)
+
+🎓 Learning Outcome
+Gained hands-on experience with React fundamentals like components, props, and state.
+
+Learned to handle API integration and async operations.
+
+Practiced routing and pagination in a real-world scenario.
+
+Improved understanding of responsive design and UI/UX best practices.
+
+📺 Tutorial Reference
+Based on the project demonstrated by CodeWithHarry – React News App Tutorial. Extended with custom logic, loading states, and API configuration.
+
+📄 License
+This project is for learning and educational purposes. You are free to use, modify, and share it.
+
+🙋‍♀️ Author
+Tejaswini Venkatesh Gudigar
+Computer Science and Engineering Graduate
+🔗 GitHub
