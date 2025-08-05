@@ -48,7 +48,7 @@ This project is inspired by [CodeWithHarry’s React tutorial](https://www.youtu
 git clone https://github.com/your-username/NewsView-Category-Wise-Live-News-App.git
 cd NewsView-Category-Wise-Live-News-App
 
-### 📦 Install Dependencies
+## 📦 Install Dependencies
 
 ```bash
 npm install
