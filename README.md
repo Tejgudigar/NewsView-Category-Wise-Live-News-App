@@ -49,6 +49,8 @@ git clone https://github.com/your-username/NewsView-Category-Wise-Live-News-App.
 cd NewsView-Category-Wise-Live-News-App
 ```
 
+---
+
 
 ## 📦 Install Dependencies
 
@@ -66,13 +68,17 @@ In the root directory of your project, create a file named:
 bash
 Copy
 Edit
+```
 .env
+```
 Inside .env, add the following line (replace with your actual API key):
 
 env
 Copy
 Edit
 REACT_APP_NEWS_API_KEY=your_api_key_here
+
+---
 ⚠️ Important:
 
 The variable must start with REACT_APP_ for Create React App to recognize it.
@@ -81,12 +87,16 @@ Restart your dev server (npm start) after creating or editing .env.
 
 Never share your .env file or API key publicly. It's automatically ignored by Git using .gitignore.
 
+---
+
 ▶️ Start the App
 bash
 Copy
 Edit
 npm start
 Visit http://localhost:3000 in your browser.
+
+---
 
 🧪 How It Works
 App.js: Manages routes and layout.
@@ -99,7 +109,7 @@ Spinner.js: Displays loading animation.
 
 API Handling: Uses fetch API to call NewsAPI endpoints with category and page parameters.
 
-
+---
 
 🎓 Learning Outcome
 Gained hands-on experience with React fundamentals like components, props, and state.
@@ -109,9 +119,11 @@ Learned to handle API integration and async operations.
 Practiced routing and pagination in a real-world scenario.
 
 Improved understanding of responsive design and UI/UX best practices.
+---
 
 📄 License
 This project is for learning and educational purposes. You are free to use, modify, and share it.
+---
 
 🙋‍♀️ Author
 Tejaswini Venkatesh Gudigar
