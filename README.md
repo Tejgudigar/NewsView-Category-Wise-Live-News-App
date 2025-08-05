@@ -42,7 +42,7 @@ This project is inspired by [CodeWithHarry’s React tutorial](https://www.youtu
 
 ## 🛠️ Installation & Setup
 
-### 📁 Clone the Repository
+## 📁 Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/NewsView-Category-Wise-Live-News-App.git
