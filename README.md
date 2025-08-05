@@ -47,11 +47,15 @@ This project is inspired by [CodeWithHarry’s React tutorial](https://www.youtu
 ```bash
 git clone https://github.com/your-username/NewsView-Category-Wise-Live-News-App.git
 cd NewsView-Category-Wise-Live-News-App
+```
+
 
 ## 📦 Install Dependencies
 
 ```bash
 npm install
+```
+
 🔑 Add Your API Key using .env
 Go to https://newsapi.org/ and sign up for a free account.
 
@@ -95,8 +99,7 @@ Spinner.js: Displays loading animation.
 
 API Handling: Uses fetch API to call NewsAPI endpoints with category and page parameters.
 
-📸 Screenshots (Optional)
-Add screenshots here to showcase the UI (use .png or .jpg)
+
 
 🎓 Learning Outcome
 Gained hands-on experience with React fundamentals like components, props, and state.
@@ -106,9 +109,6 @@ Learned to handle API integration and async operations.
 Practiced routing and pagination in a real-world scenario.
 
 Improved understanding of responsive design and UI/UX best practices.
-
-📺 Tutorial Reference
-Based on the project demonstrated by CodeWithHarry – React News App Tutorial. Extended with custom logic, loading states, and API configuration.
 
 📄 License
 This project is for learning and educational purposes. You are free to use, modify, and share it.
